@@ -1,0 +1,24 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf dist && npx tsc && nodemon dist/server.js",
+    "serve": "rimraf dist && npx tsc && node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rimraf": "^2.6.3",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/ws": "^6.0.2",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.3"
+  }
+}
